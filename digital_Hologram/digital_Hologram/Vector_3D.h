@@ -1,4 +1,4 @@
-
+#pragma once
 
 
 class Vector_3D { // in meter
@@ -10,6 +10,7 @@ public:
 	double get_norm();
 	double dot_product(const Vector_3D& const that) const;
 	Vector_3D& operator+(const Vector_3D& const that);
+	double operator*(const Vector_3D& const that); 
 	void calculate_norm();
 
 private:

@@ -30,6 +30,15 @@
     <ClInclude Include="Pixel.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Point.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Photo.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +51,15 @@
       <Filter>原始程式檔</Filter>
     </ClCompile>
     <ClCompile Include="Pixel.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Point.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Photo.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

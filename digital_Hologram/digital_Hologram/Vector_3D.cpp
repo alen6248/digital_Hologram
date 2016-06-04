@@ -1,3 +1,4 @@
+#pragma once
 #include "stdafx.h"
 #include "Vector_3D.h"
 #include <cmath>
@@ -41,6 +42,15 @@ Vector_3D & Vector_3D::operator+(const Vector_3D & const that)
 
 
 	return *this;
+}
+
+double Vector_3D::operator*(const Vector_3D & const that)
+{
+	double dot_product =
+		this->x * that.x
+		+ this->y * that.y
+		+ this->z * that.z;
+	return dot_product;
 }
 
 void Vector_3D::calculate_norm()
