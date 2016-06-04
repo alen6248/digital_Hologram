@@ -2,10 +2,11 @@
 //
 
 #include "stdafx.h"
-//#include "Vector_3D.h"
+#include "Vector_3D.h"
 #include "Laser.h"
 #include "Object_Point.h"
 #include "Pixel.h"
+#include "Photo.h"
 
 
 

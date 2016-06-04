@@ -1,5 +1,49 @@
-﻿  Photo.cpp
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(11): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(12): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(13): warning C4227: 過時的用法: 已忽略參考上的限定詞
-  digital_Hologram.vcxproj -> D:\Tsung-Ying\OneDrive\NTU\作業\計算機概論\Project\Code\digital_Hologram\Debug\digital_Hologram.exe
+﻿  E_field_plane.cpp
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(1): warning C4627: '#include "E_field.h"': 尋找先行編譯標頭使用時略過
+  d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(1): note: 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(2): warning C4627: '#include "E_field_plane.h"': 尋找先行編譯標頭使用時略過
+  d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(2): note: 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(4): error C2653: 'E_field_plane': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(5): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(6): error C2550: 'E_field_plane': 建構函式初始設定式清單只允許在建構函式定義上
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(8): warning C4508: 'E_field_plane': 函式應傳回值; 假定 'void' 傳回類型
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(9): error C2653: 'E_field_plane': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(9): error C2061: 語法錯誤: 識別項 'Vector_3D'
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(10): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(10): error C2065: '_k': 未宣告的識別項
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(10): error C2065: '_r': 未宣告的識別項
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(11): error C2550: 'E_field_plane': 建構函式初始設定式清單只允許在建構函式定義上
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(12): warning C4508: 'E_field_plane': 函式應傳回值; 假定 'void' 傳回類型
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(13): error C2653: 'E_field_plane': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(13): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(13): error C2084: 函式 'int E_field_plane(void)' 的主體已經被宣告了
+  d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(4): note: 請參閱 'E_field_plane' 之前的定義
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(16): error C2653: 'E_field_plane': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(16): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(16): error C2146: 語法錯誤: 遺漏 ';' (在識別項 'get_Complex_E_field' 之前)
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(16): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_plane.cpp(16): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+  E_field_ball.cpp
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(2): warning C4627: '#include "E_field_ball.h"': 尋找先行編譯標頭使用時略過
+  d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(2): note: 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(9): error C2653: 'E_field_ball': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(9): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(9): error C2550: 'E_field_ball': 建構函式初始設定式清單只允許在建構函式定義上
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(11): warning C4508: 'E_field_ball': 函式應傳回值; 假定 'void' 傳回類型
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(12): error C2653: 'E_field_ball': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(12): error C2061: 語法錯誤: 識別項 'Vector_3D'
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(13): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(13): error C2065: '_k': 未宣告的識別項
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(13): error C2065: '_r': 未宣告的識別項
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(14): error C2550: 'E_field_ball': 建構函式初始設定式清單只允許在建構函式定義上
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(15): warning C4508: 'E_field_ball': 函式應傳回值; 假定 'void' 傳回類型
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(16): error C2653: 'E_field_ball': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(16): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(16): error C2084: 函式 'int E_field_ball(void)' 的主體已經被宣告了
+  d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(9): note: 請參閱 'E_field_ball' 之前的定義
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(19): error C2653: 'E_field_ball': 不是類別或命名空間名稱
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(19): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(19): error C2146: 語法錯誤: 遺漏 ';' (在識別項 'get_Complex_E_field' 之前)
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(20): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\e_field_ball.cpp(20): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+  正在產生程式碼...

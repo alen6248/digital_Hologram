@@ -1,3 +1,4 @@
+#pragma once
 #include "Vector_3D.h"
 
 
