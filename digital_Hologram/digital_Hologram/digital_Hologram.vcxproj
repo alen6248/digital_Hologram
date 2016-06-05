@@ -146,6 +146,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Complex.h" />
+    <ClInclude Include="E_field.h" />
+    <ClInclude Include="E_field_ball.h" />
+    <ClInclude Include="E_field_plane.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Object_Point.h" />
     <ClInclude Include="Photo.h" />
@@ -155,6 +158,9 @@
     <ClInclude Include="Vector_3D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="E_field.cpp" />
+    <ClCompile Include="E_field_ball.cpp" />
+    <ClCompile Include="E_field_plane.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Object_Point.cpp" />

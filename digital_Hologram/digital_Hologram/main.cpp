@@ -7,6 +7,10 @@
 #include "Object_Point.h"
 #include "Pixel.h"
 #include "Photo.h"
+#include "Complex.h"
+#include "E_field.h"
+#include "E_field_ball.h"
+#include "E_field_plane.h"
 
 
 

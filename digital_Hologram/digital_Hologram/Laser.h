@@ -1,16 +1,21 @@
 #include "Vector_3D.h"
-
+#include "E_field_plane.h"
+#include "Complex.h"
 
 class Laser {
 public:
 	Laser();
-	Laser(Vector_3D _wave_vector, double _amplitude, double _angular_frequcnce);
+	Laser(Vector_3D _k, Complex_d _U, double _omega);
 	~Laser();
 
 
 private:
-	Vector_3D wave_vector;
-	double amplitude;
-	double angular_frequence;
+
+
+	Vector_3D k;
+	Complex_d U;
+	double omega;
 	//E_field  needed !
+
+	//зяжи E_field_plane
 };

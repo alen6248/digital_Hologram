@@ -30,9 +30,6 @@
     <ClInclude Include="Pixel.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="Laser.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
     <ClInclude Include="Object_Point.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
@@ -40,6 +37,18 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Complex.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="E_field.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="E_field_plane.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="E_field_ball.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,13 +65,22 @@
     <ClCompile Include="Pixel.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="Laser.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
     <ClCompile Include="Object_Point.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
     <ClCompile Include="Photo.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="E_field.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="E_field_plane.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="E_field_ball.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
