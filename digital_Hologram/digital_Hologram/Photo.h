@@ -1,5 +1,6 @@
 #pragma once
 
+#pragma once
 #include "Pixel.h"
 #include "Vector_3D.h"
 #include <vector>
@@ -22,7 +23,7 @@ public:
 	Pixels_Pointer_2D_Array get_pixel_ptr_array();
 	Vector_3D get_pixel_location(int _h,int _w);
 	void set_pixel_Complex_E_field(int _h,int _w,Complex_d _Complex_E_field);
-
+	void calculate_intensity();
 
 private:
 	int width_px_num;

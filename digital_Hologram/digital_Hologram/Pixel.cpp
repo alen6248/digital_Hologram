@@ -59,3 +59,8 @@ void Pixel::set_Complex_E_field(Complex_d _Complex_E_field)
 {
 	Complex_E_field = _Complex_E_field;
 }
+
+void Pixel::calculate_intensity()
+{
+	intensity = real(conj(Complex_E_field)*Complex_E_field);
+}

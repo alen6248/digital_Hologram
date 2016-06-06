@@ -1,3 +1,4 @@
+#pragma once
 #include "Vector_3D.h"
 #include "E_field_plane.h"
 #include "Complex.h"

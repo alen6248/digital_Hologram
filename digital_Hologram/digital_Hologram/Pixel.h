@@ -19,7 +19,7 @@ public:
 	void set_h(int _h);
 	void set_intensity(double _intensity);
 	void set_Complex_E_field(Complex_d _Complex_E_field);
-
+	void calculate_intensity();
 
 private:
 	Vector_3D location;

@@ -54,5 +54,14 @@ void Photo::set_pixel_Complex_E_field(int _h, int _w, Complex_d _Complex_E_field
 	pixel_ptr_array[_h][_w]->set_Complex_E_field(_Complex_E_field);
 }
 
+void Photo::calculate_intensity()
+{
+	for (int h = 0; h < height_px_num; h++) {
+		for (int w = 0; w < width_px_num; w++) {
+			pixel_ptr_array[h][w]->calculate_intensity();
+		}
+	}
+}
+
 
 
