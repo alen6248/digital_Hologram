@@ -54,6 +54,9 @@
     <ClInclude Include="Interference_Manager.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="Image_generator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -87,6 +90,9 @@
       <Filter>原始程式檔</Filter>
     </ClCompile>
     <ClCompile Include="Interference_Manager.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_generator.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

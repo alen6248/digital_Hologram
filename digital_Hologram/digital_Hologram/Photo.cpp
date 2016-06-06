@@ -44,6 +44,11 @@ Pixels_Pointer_2D_Array Photo::get_pixel_ptr_array()
 	return pixel_ptr_array;
 }
 
+Intensity_Matrix Photo::get_intensity_matrix()
+{
+	return intensity_matrix;
+}
+
 Vector_3D Photo::get_pixel_location(int _h, int _w)
 {
 	return pixel_ptr_array[_h][_w]->get_location();
@@ -59,6 +64,26 @@ void Photo::calculate_intensity()
 	for (int h = 0; h < height_px_num; h++) {
 		for (int w = 0; w < width_px_num; w++) {
 			pixel_ptr_array[h][w]->calculate_intensity();
+		}
+	}
+}
+
+double Photo::get_intensity(int h, int w)
+{
+	return pixel_ptr_array[h][w]->get_intensity();
+}
+
+void Photo::generate_intensity_matrix()
+{
+	intensity_matrix.resize(height_px_num);
+	for (int h = 0; h < height_px_num; h++) {
+		intensity_matrix[h].resize(width_px_num);
+	}
+
+	//load 
+	for (int h = 0; h<height_px_num; h++) {
+		for (int w = 0; w < width_px_num; w++) {
+			intensity_matrix[h][w] = get_intensity(h, w);
 		}
 	}
 }

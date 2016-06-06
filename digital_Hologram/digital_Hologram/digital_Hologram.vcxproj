@@ -149,6 +149,7 @@
     <ClInclude Include="E_field.h" />
     <ClInclude Include="E_field_ball.h" />
     <ClInclude Include="E_field_plane.h" />
+    <ClInclude Include="Image_generator.h" />
     <ClInclude Include="Interference_Manager.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Object_Point.h" />
@@ -162,6 +163,7 @@
     <ClCompile Include="E_field.cpp" />
     <ClCompile Include="E_field_ball.cpp" />
     <ClCompile Include="E_field_plane.cpp" />
+    <ClCompile Include="Image_generator.cpp" />
     <ClCompile Include="Interference_Manager.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Object_Point.cpp" />

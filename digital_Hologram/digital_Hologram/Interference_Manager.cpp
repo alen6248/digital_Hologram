@@ -66,4 +66,5 @@ void Interference_Manager::superimpose(Photo& photo,Points_Ptr_Set points_ptr_se
 	}
 	
 	photo.calculate_intensity();
+	photo.generate_intensity_matrix();
 }
