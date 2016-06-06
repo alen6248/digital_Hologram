@@ -6,7 +6,8 @@ Pixel::Pixel():w(0),h(0),intensity(0.0)
 {
 }
 
-Pixel::Pixel(int _w, int _h, Vector_3D _location):w(_w),h(_h),location(_location),intensity(0.0)
+Pixel::Pixel(int _w, int _h, Vector_3D _location)
+	:w(_w),h(_h),location(_location),intensity(0.0)
 {
 }
 

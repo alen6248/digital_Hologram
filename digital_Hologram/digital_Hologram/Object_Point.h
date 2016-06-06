@@ -1,4 +1,5 @@
 #include "Vector_3D.h"
+#include <vector>
 
 class Object_Point {
 public:
@@ -9,9 +10,5 @@ public:
 private:
 	Vector_3D position;  // in meter 
 
-
-
-
-
-
 };
+

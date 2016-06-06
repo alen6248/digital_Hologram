@@ -1,10 +1,6 @@
-﻿  main.cpp
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(11): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(12): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(13): warning C4227: 過時的用法: 已忽略參考上的限定詞
-  Laser.cpp
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(11): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(12): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(13): warning C4227: 過時的用法: 已忽略參考上的限定詞
-  正在產生程式碼...
+﻿  Interference_Manager.cpp
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(14): warning C4227: 過時的用法: 已忽略參考上的限定詞
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(15): warning C4227: 過時的用法: 已忽略參考上的限定詞
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(16): warning C4227: 過時的用法: 已忽略參考上的限定詞
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(17): warning C4227: 過時的用法: 已忽略參考上的限定詞
   digital_Hologram.vcxproj -> D:\Tsung-Ying\OneDrive\NTU\作業\計算機概論\Project\Code\digital_Hologram\Debug\digital_Hologram.exe
