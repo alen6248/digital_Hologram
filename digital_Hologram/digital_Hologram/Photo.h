@@ -5,11 +5,12 @@
 #include "Vector_3D.h"
 #include <vector>
 #include "Image_generator.h"
+#include "Intensity_Matrix.h"
 
 using namespace std;
 
 typedef vector<vector<Pixel*>> Pixels_Pointer_2D_Array;
-typedef std::vector<std::vector<double>> Intensity_Matrix;
+//typedef std::vector<std::vector<double>> Intensity_Matrix;
 
 class Photo {
 

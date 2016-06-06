@@ -150,6 +150,7 @@
     <ClInclude Include="E_field_ball.h" />
     <ClInclude Include="E_field_plane.h" />
     <ClInclude Include="Image_generator.h" />
+    <ClInclude Include="Intensity_Matrix.h" />
     <ClInclude Include="Interference_Manager.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Object_Point.h" />

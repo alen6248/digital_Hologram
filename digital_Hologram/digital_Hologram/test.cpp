@@ -13,6 +13,7 @@
 #include <iostream>
 #include <vector>
 #include "Interference_Manager.h"
+#include "Image_generator.h"
 
 
 using namespace std;
@@ -89,7 +90,7 @@ int main()
 			//object_point 2
 	Vector_3D object_position_2 = Vector_3D(10, 9.2, 10.1);
 	points_ptr_set[1] = new Object_Point(object_position_2);
-			//object_point 2
+			//object_point 3
 	Vector_3D object_position_3 = Vector_3D(9.5, 8.1, 10.9);
 	points_ptr_set[2] = new Object_Point(object_position_3);
 
@@ -98,6 +99,10 @@ int main()
 	Interference_Manager interference_manager = Interference_Manager();
 	interference_manager.superimpose(photo, points_ptr_set, laser);
 
+		//Image_generator
+	Image_generator image_generator = Image_generator();
+	image_generator.load_intensity_matrix(photo.get_intensity_matrix());
+	image_generator.normalize_image_intensity_matrix();
 
 
 
