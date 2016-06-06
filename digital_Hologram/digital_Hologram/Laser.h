@@ -8,6 +8,10 @@ public:
 	Laser(Vector_3D _k, Complex_d _U, double _omega);
 	~Laser();
 
+	Complex_d get_Complex_E_field(Vector_3D r, double time);
+	Vector_3D get_k();
+	double get_omega();
+	Complex_d get_U();
 
 private:
 

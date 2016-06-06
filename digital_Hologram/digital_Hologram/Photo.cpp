@@ -39,4 +39,20 @@ int Photo::get_pixel_size()
 	return pixel_size;
 }
 
+Pixels_Pointer_2D_Array Photo::get_pixel_ptr_array()
+{
+	return pixel_ptr_array;
+}
+
+Vector_3D Photo::get_pixel_location(int _h, int _w)
+{
+	return pixel_ptr_array[_h][_w]->get_location();
+}
+
+void Photo::set_pixel_Complex_E_field(int _h, int _w, Complex_d _Complex_E_field)
+{
+	pixel_ptr_array[_h][_w]->set_Complex_E_field(_Complex_E_field);
+}
+
+
 
