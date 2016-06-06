@@ -1,10 +1,7 @@
 ﻿  main.cpp
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(11): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(12): warning C4227: 過時的用法: 已忽略參考上的限定詞
 d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(13): warning C4227: 過時的用法: 已忽略參考上的限定詞
-  Laser.cpp
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(11): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(12): warning C4227: 過時的用法: 已忽略參考上的限定詞
-d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(13): warning C4227: 過時的用法: 已忽略參考上的限定詞
-  正在產生程式碼...
-  digital_Hologram.vcxproj -> D:\Tsung-Ying\OneDrive\NTU\作業\計算機概論\Project\Code\digital_Hologram\Debug\digital_Hologram.exe
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(14): warning C4227: 過時的用法: 已忽略參考上的限定詞
+d:\tsung-ying\onedrive\ntu\作業\計算機概論\project\code\digital_hologram\digital_hologram\vector_3d.h(15): warning C4227: 過時的用法: 已忽略參考上的限定詞
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\complex.h(214): error C2872: 'clog': 模稜兩可的符號
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\complex.h(77): note: 可能是 '_Dcomplex clog(_Dcomplex)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\iostream(29): note: 或       'std::ostream std::clog'

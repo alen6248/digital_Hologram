@@ -56,9 +56,6 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
     <ClCompile Include="Vector_3D.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
@@ -81,6 +78,9 @@
       <Filter>原始程式檔</Filter>
     </ClCompile>
     <ClCompile Include="Laser.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
