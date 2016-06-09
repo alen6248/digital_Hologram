@@ -167,9 +167,11 @@
     <ClCompile Include="Image_generator.cpp" />
     <ClCompile Include="Interference_Manager.cpp" />
     <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Object_Point.cpp" />
     <ClCompile Include="Photo.cpp" />
     <ClCompile Include="Pixel.cpp" />
+    <ClCompile Include="show_concept.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

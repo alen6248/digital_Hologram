@@ -2,6 +2,8 @@
 #include "Photo.h"
 #include <vector>
 #include "Intensity_Matrix.h"
+#include <iostream>
+#include <fstream>
 
 
 
@@ -13,6 +15,8 @@ public:
 
 	void load_intensity_matrix(Intensity_Matrix _intensity_matrix);
 	void normalize_image_intensity_matrix();
+	void write_txt_255(string filename);
+	void write_txt_0_1(string filename);
 
 private: 
 	Intensity_Matrix image_intensity_matrix;

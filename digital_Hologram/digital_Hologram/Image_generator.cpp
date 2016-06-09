@@ -56,4 +56,44 @@ void Image_generator::normalize_image_intensity_matrix()
 
 
 
+void Image_generator::write_txt_255(string filename)
+{
+	ofstream myfile;
+	myfile.open(filename.c_str());
+
+	int height_px_num = image_intensity_matrix.size();
+	int width_px_num = image_intensity_matrix[0].size();
+
+	for (int h = 0; h < height_px_num; h++) {
+		for (int w = 0; w < width_px_num; w++) {
+			myfile << image_intensity_matrix[h][w]<<'\n';
+		}
+	}
+	myfile.close();
+
+
+
+}
+
+void Image_generator::write_txt_0_1(string filename)
+{
+	ofstream myfile;
+	myfile.open(filename.c_str());
+
+	int height_px_num = image_intensity_matrix.size();
+	int width_px_num = image_intensity_matrix[0].size();
+
+	for (int h = 0; h < height_px_num; h++) {
+		for (int w = 0; w < width_px_num; w++) {
+			myfile << image_intensity_matrix[h][w]/255.0 << '\n';
+		}
+	}
+	myfile.close();
+
+
+
+}
+
+
+
 

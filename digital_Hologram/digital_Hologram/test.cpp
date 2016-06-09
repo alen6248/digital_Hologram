@@ -68,32 +68,40 @@ int main()
 	/********«Øºc´ú¸Õ*******/
 	double default_time = 0.0;
 		//laser
-	Vector_3D laser_k = Vector_3D(10000000.0, 0.0, 0.0);
-	Complex_d laser_U = 1;
+	Vector_3D laser_k = Vector_3D(5000000.0, 5000000.0, 5000000.0);
+	Complex_d laser_U = 10;
 	double laser_omega = 2 * 3.14159;
 	
 	Laser laser=Laser(laser_k,laser_U,laser_omega);
 
 
 		//photo
-	int photo_height_px = 8;
-	int photo_width_px = 8;
+	int photo_height_px = 320;
+	int photo_width_px = 320;
 	double photo_pixel_size = 0.001; //measured in meter
 	Photo photo = Photo(photo_width_px, photo_height_px, photo_pixel_size);
 
 		//object points
 	Points_Ptr_Set points_ptr_set;
-	points_ptr_set.resize(3);
+	points_ptr_set.resize(6);
 			//object_point 1
-	Vector_3D object_position_1 = Vector_3D(10, 10, 10);
+	Vector_3D object_position_1 = Vector_3D(10, 10.1, 10);
 	points_ptr_set[0] = new Object_Point(object_position_1);
 			//object_point 2
-	Vector_3D object_position_2 = Vector_3D(10, 9.2, 10.1);
+	Vector_3D object_position_2 = Vector_3D(10.1, 9.8, 10.1);
 	points_ptr_set[1] = new Object_Point(object_position_2);
 			//object_point 3
-	Vector_3D object_position_3 = Vector_3D(9.5, 8.1, 10.9);
+	Vector_3D object_position_3 = Vector_3D(9.5, 10.05, 10.9);
 	points_ptr_set[2] = new Object_Point(object_position_3);
-
+		//object_point 4
+	Vector_3D object_position_4 = Vector_3D(9.7, 18.9, 10.9);
+	points_ptr_set[3] = new Object_Point(object_position_4);
+		//object_point 5
+	Vector_3D object_position_5 = Vector_3D(9.9, 9.1, 9.68);
+	points_ptr_set[4] = new Object_Point(object_position_5);
+		//object_point 6
+	Vector_3D object_position_6 = Vector_3D(10.2, 10.1, 8.62);
+	points_ptr_set[5] = new Object_Point(object_position_6);
 
 		//Interference_Manager
 	Interference_Manager interference_manager = Interference_Manager();
@@ -103,8 +111,8 @@ int main()
 	Image_generator image_generator = Image_generator();
 	image_generator.load_intensity_matrix(photo.get_intensity_matrix());
 	image_generator.normalize_image_intensity_matrix();
-
-
+	image_generator.write_txt_255("255_320x320_0.001m¡Amanual.txt");
+	image_generator.write_txt_0_1("1_320x320_0.001m¡Amanual.txt");
 
 	system("PAUSE");
 	return 0;
